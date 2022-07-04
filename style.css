@@ -9,9 +9,16 @@
  .name-color{
     color: orange;
  }
- h2, h3, p{
-    text-transform: capitalize;
- }
+  h2{
+   text-transform: capitalize;
+   font-size: 40px;
+  }
+  p{
+   text-transform: capitalize;
+  }
+  h3{
+   text-transform: capitalize;
+  }
  .flexible-container{
    display: flex;
    margin-bottom:100px ;
@@ -56,4 +63,22 @@
    margin-bottom: 0;
    padding-bottom: 0;
 
+ }
+ .experience-item{
+   margin: 5%;
+   width: 80%;
+   padding: 5%;
+   box-shadow: 7px 7px 40px gray ;
+   
+ }
+
+ #developer-item{
+   border-left: 7px solid tomato;
+ }
+
+ #baby-developer {
+   border-left: 7px solid blue;
+ }
+ footer{
+   text-align: center;
  }
